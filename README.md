@@ -22,7 +22,7 @@ URL: https://wireframe.cc/CU8Pbg
 Game Design and Logic:
 ![logic](images/gamelogic.png)
 ![winningcombos](images/winningcombos.png)
-![tieandobservation] (images/tieandob.png)
+![tieandobservation](images/tieandob.png)
 
 # Unsolved Problems
 Next update I will try to implement a 'reset scoreboard', ,'play' button and 'user choices'.
