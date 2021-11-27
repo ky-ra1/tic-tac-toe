@@ -1,26 +1,25 @@
 html {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    margin: 30px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin: 50px 50px;
     background-color: azure;
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     color: rgb(15, 6, 6);
     text-align: center;
 }
 
-.main-container {
-    display: flexbox;
-    /* display: relative; */
-}
-
-
 .grid {
     display: grid;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     padding: 20px;
@@ -30,13 +29,40 @@ h1 {
     border-radius: 10px;
 }
 
-
 .box {
     width: 100px;
     height: 100px;
-    font-size: 140px;
+    font-size: 97px;
     text-align: center;
     border: 5px solid rgb(149, 110, 241);
     background-color: rgb(245, 9, 213);
-    
+
+}
+
+.scoreboard {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px 40px;
+    border: 3px solid rgb(144, 219, 248);
+    border-radius: 5px;
+    color: rgb(44, 24, 131);   
+    background-color: rgb(166, 245, 218);
+}
+
+.winner {
+    border: 5px solid rgb(344,233,344);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(247, 247, 171);
+}
+
+.reset {
+   border: 2px solid rgb(3, 3, 2);
+   border-radius: 4px;
+    color:rgb(149, 110, 241);
+    font-size: 20px;
+    cursor: all-scroll;    
 }
