@@ -14,7 +14,6 @@ For this project I used:
 - Github 
 - Gitpages
 - VSCode
-- Draw.io
 - Wireframe.cc 
 
 # Wireframe Drawings and Logic
@@ -22,7 +21,10 @@ URL: https://wireframe.cc/CU8Pbg
 
 Game Design and Logic:
 ![logic](images/gamelogic.png)
+![winningcombos](images/winningcombos.png)
+![tieandobservation] (images/tieandob.png)
+
 # Unsolved Problems
-Next update I will try to implement a 'reset scoreboard' option, as it was not working.
+Next update I will try to implement a 'reset scoreboard', ,'play' button and 'user choices'.
 
 Will also add an instructions section to the page.
